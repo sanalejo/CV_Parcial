@@ -1,0 +1,34 @@
+{
+  "name": "cv_alejandro",
+  "version": "1.0.0",
+  "description": "Parcial 2 de programación web",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "start:dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/d4nux/parcial2.git"
+  },
+  "keywords": [
+    "parcial",
+    "web"
+  ],
+  "author": "Alejandro Peña Soto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/d4nux/parcial2/issues"
+  },
+  "homepage": "https://github.com/d4nux/parcial2#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "firebase": "^7.19.1",
+    "morgan": "^1.10.0"
+  }
+}

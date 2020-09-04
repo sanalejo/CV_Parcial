@@ -1,0 +1,9 @@
+footer{
+  background-color: rgb(62, 62, 235);
+}
+footer div{
+  padding-top: 30px;
+  text-align: center;
+  height: 80px;
+  color: white
+}
